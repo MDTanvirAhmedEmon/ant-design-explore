@@ -4,7 +4,9 @@ export default function MainLayout({ children }) {
   return (
     <ConfigProvider
       theme={{
-        token: {},
+        token: {
+
+        },
       }}
     >
       <body>{children}</body>
